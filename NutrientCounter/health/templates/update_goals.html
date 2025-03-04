@@ -1,0 +1,27 @@
+<h2>Set Your Nutrition Goals</h2>
+
+<form method="POST">
+    {% csrf_token %}
+
+    <div class="form-group">
+        <label for="{{ form.daily_calorie_goal.id_for_label }}">Daily Calorie Goal</label>
+        {{ form.daily_calorie_goal }}
+    </div>
+
+    <div class="form-group">
+        <label for="{{ form.carb_goal.id_for_label }}">Carbohydrate Goal (g)</label>
+        {{ form.carb_goal }}
+    </div>
+
+    <div class="form-group">
+        <label for="{{ form.protein_goal.id_for_label }}">Protein Goal (g)</label>
+        {{ form.protein_goal }}
+    </div>
+
+    <div class="form-group">
+        <label for="{{ form.fat_goal.id_for_label }}">Fat Goal (g)</label>
+        {{ form.fat_goal }}
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update Goals</button>
+</form>
