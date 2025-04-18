@@ -1,0 +1,32 @@
+/* components/ResumeFeedback.css */
+.resume-feedback-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.feedback-section {
+  margin-bottom: 20px;
+}
+
+.feedback-section h3 {
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.feedback-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.feedback-section p {
+  margin: 10px 0;
+}
+
+.feedback-section strong {
+  color: #555;
+}
